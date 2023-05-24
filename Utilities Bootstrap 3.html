@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <title>Utilities Bootstrap 5</title>
+<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=8y16XzrXHhRnC4IKczXLXwgsUbT6sLLlhnz5srSfJ-gbr8euVSvCRFcMs3_YKBp6X3Pj51P81cvzI3t0dyN8uaZ8hZqQwYf-HpLMGwWlBXPwBmnctAN247TWaDhwE5YzFu05WyCrLBk6KsxxCNNWXvRnVh0SRXDjuEAqapimIbkI3CTQr1Ll5o5lXnLAfiMuxZ2gIUHT4f-5Aa6CyL9Uw4ig9ZgcmkRrwhYFxkezv8yNF4v-dqDJjZrp51r-8S5A6zNhDXwvB938CdA5p0nhdKFmZdwgcOEdiMsLtbKKTRTJi_K_pS2j-9cMv9D19lHP-oqitx998YKN9Yv2SWyZZsV17phe09kNsV3H3psxYcEWY72P3qXPtfBw6OBojKREUhQzrmsLcLM14ZqJz7uT0k12hyAqPe5mReM69fdJBoDI5Gk91vqP7nMpI_uNESEMPS3f_LmTp0Xuwz_z7-tQKQ" charset="UTF-8"></script></head>
+
+<body>
+    <div class="container m-5">
+
+        <h4 class="text-center">Utilities Bootstrap 5</h4>
+        <h2 class="text-center">Spacing & Sizing</h2>
+        <hr>
+
+
+
+
+
+        <!-- Lets Begin -->
+
+        <!-- Box Model -->
+        <!-- 1. Margin area transfarant di dalam pada sekeliling element
+        2. Padding area transfarant di luar pada sekeliling element
+        3. Border, batas tepi pada sekeliling objek
+        4. Content -->
+
+        <h3 class="text-danger">Spacing & Sizing</h3>
+        <p>memberi ruang kosong pada sekeliling objek, <b>Box-model</b></p>
+
+        <h3 class="text-primary">Margin Bottom</h3>
+        <p>membuat margin bottom <b>mb-b</b></p>
+        <h3 class="bg-primary mb-1" style="width:250px; height: 50px;">Margin Bottom 0</h3>
+        <h3 class="bg-primary ms-2 d-inline-block" style="width:250px; height: 50px;">Margin Bottom 1</h3>
+        <h3 class="bg-primary ms-3 d-inline-block" style="width:250px; height: 50px;">Margin Bottom 2</h3>
+        <!-- m, mt, mb, ms, me, mx (mx-0 sampai mx-5), my -->
+
+        <hr>
+
+
+        <h3 class="text-primary">Margin sumbu Auto</h3>
+        <!-- mx-auto akan berada ditengah sesuai parent -->
+        <div class="container border" style="height: 200px;">
+            <div class="bg-primary mx-auto" style="width: 100px; height:100px;">Lorem ipsum dolor sit amet.</div>
+        </div>
+
+        <h3 class="text-primary">Padding Bottom</h3>
+        <p>membuat margin bottom <b>pb</b></p>
+        <h3 class="bg-success p-2">Padding Bottom 0</h3>
+        <h3 class="bg-success ps-3">Padding Bottom 1</h3>
+
+        <hr>
+        <br>
+
+
+        <h3 class="text-primary">Sizing</h3>
+        <p>w-25 sd w-100</p>
+        <div class="container" style="height: 150px;">
+            <div class="bg-primary border mb-1 w-25">25%</div>
+            <div class="bg-primary border mb-1" style="width:25%;">25%</div>
+            <div class="bg-primary border mb-1 h-75 d-inline-block">75%</div>
+            <div class="bg-primary border mb-1 d-inline-block" style="height:75%;">750%</div>
+        </div>
+
+        <br>
+        <hr>
+        <br>
+
+        <h3 class="text-primary">Overflow</h3>
+        <div style="width: 200px; height:100px;" class="bg-primary overflow-visible">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut blanditiis dicta saepe architecto odio amet? Saepe quasi corrupti repellat quis.
+        </div>
+        <div style="width: 200px; height:100px;" class="bg-success overflow-auto">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut blanditiis dicta saepe architecto odio amet? Saepe quasi corrupti repellat quis.
+        </div>
+        <div style="width: 200px; height:100px;" class="bg-primary overflow-hidden">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut blanditiis dicta saepe architecto odio amet? Saepe quasi corrupti repellat quis.
+        </div>
+        <div style="width: 200px; height:100px;" class="bg-success overflow-scroll">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut blanditiis dicta saepe architecto odio amet? Saepe quasi corrupti repellat quis.
+        </div>
+
+        <h3 class="text-primary">Visible</h3>
+        <div style="width: 200px; height:100px;" class="bg-primary overflow-scroll invisible">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut blanditiis dicta saepe architecto odio amet? Saepe quasi corrupti repellat quis.
+        </div>
+
+        <!--  -->
+        <!-- End Session -->
+        <!--Thank You -->
+
+    </div>
+
+
+
+
+
+    <div class="container m-5">
+
+        <h4 class="text-center">Utilities Bootstrap 5</h4>
+        <h2 class="text-center">Shadow & Borders</h2>
+        <hr>
+
+
+        <!-- Lets Begin -->
+
+        <!-- 1. Shadow -->
+
+        <h3 class="text-primary">Shadow</h3>
+        <p>Memberi Bayangan Pada elements</p>
+        <div style="width:100px; height: 100px; box-shadow: 10px 1px 10px rgba(0, 0, 0, .5);" class="bg-primary">Lorem ipsum dolor sit amet.</div>
+        <!--x_y_bluriness_color-->
+        <br>
+        
+        <div class="p-3 mb-5 bg-light rounded shadow-none">No shadow</div>
+        <div class="p-3 mb-5 bg-light rounded shadow-sm">Small shadow</div>
+        <div class="p-3 mb-5 bg-light rounded shadow">Regular shadow</div>
+        <div class="p-3 mb-5 bg-light rounded shadow-lg">Larger shadow</div>
+
+        <hr><br><br>
+
+        <!-- 2. Border -->
+
+        <h3 class="text-primary">Border</h3>
+        <p>Garis Tepi/ Batas</p>
+
+        <h3>1. Additive</h3>
+        <div class="p-3 mb-2 bg-light border">Border Semua Sisi</div>
+        <div class="p-3 mb-2 bg-light border-top">Border atas</div>
+        <div class="p-3 mb-2 bg-light border-start">Border kiri</div>
+
+        <br>
+
+        <h3>2. Border Color</h3>
+        <div class="p-3 mb-2 bg-light border border-primary">.border-primary</div>
+        <div class="p-3 mb-2 bg-light border border-secondary">.border-secondary</div>
+
+        <br>
+        <h3>3. Border width</h3>
+        <div class="p-3 mb-2 bg-ligh border border-primary border-1">Border Size : 1</div>
+        <div class="p-3 mb-2 bg-ligh border border-secondary border-3">Border Size : 2</div>
+
+        <br>
+        <h3>4. Boder Radius Size</h3>
+        <div class="p-3 mb-2 bg-light w-25 border rounded-3">Radius Size 0</div>
+
+
+        <br>
+        <h3>5. Boder Radius</h3>
+        <div class="p-3 mb-2 bg-warning border rounded">Border Radius</div>
+        <div class="p-3 mb-2 bg-warning border rounded-top">Rounded Top</div>
+        <div class="p-3 mb-2 bg-warning border rounded-end">Rounded End</div>
+        <div class="p-3 mb-2 bg-warning border rounded-bottom">Rounded Bottom</div>
+        <div class="p-3 mb-2 bg-warning border rounded-start">Rounded Start</div>
+        <div class="p-3 mb-2 bg-warning border rounded-circle" style="width: 100px; height: 100px;">Rounded Circle
+        </div>
+        <div class="p-3 mb-2 bg-secondary rounded-pill">Rounded Pill</div>
+
+
+        <!-- End Session -->
+        <!--Thank You -->
+
+    </div>
+
+
+    <!-- Bootstrap Javascript -->
+    <script src="js/bootstrap.js"></script>
+
+    <!-- Popper Javascript -->
+    <script src="js/popper.min.js"></script>
+</body>
+
+</html>
